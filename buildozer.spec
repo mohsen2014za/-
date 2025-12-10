@@ -40,27 +40,3 @@ warn_on_root = 1
 
 # فشرده‌سازی
 build_mode = debug
-
-[app]
-
-# اجازه دسترسی به صدا و ذخیره‌سازی (در صورت نیاز)
-# android.permissions = WRITE_EXTERNAL_STORAGE, READ_EXTERNAL_STORAGE
-
-# کتابخانه‌های مورد نیاز
-requirements = python3,kivy==2.2.1, pillow, android
-
-# تنظیمات پلتفرم
-android.api = 31
-android.minapi = 21
-android.ndk = 25b
-android.gradle_dependencies = 'com.google.android.gms:play-services-location:21.0.1'
-
-# نام نمایشی در لانچر
-android.name = Puzzle IQ
-
-# بسته کامل (package ID)
-android.package = ir.mohsen.puzzle.puzzleiq
-
-# نسخه‌های مورد نیاز
-android.sdk = 26
-p4a.branch = develop
